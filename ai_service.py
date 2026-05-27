@@ -13,10 +13,10 @@ def analyze(data: dict):
 
     temperature = data["temperature"]
 
-    if temperature > 90:
+    if temperature > 50:
 
         status = "ALERT"
-        result = "Possible Overheating"
+        result = " Overheating , Please check the system "
 
     else:
 
